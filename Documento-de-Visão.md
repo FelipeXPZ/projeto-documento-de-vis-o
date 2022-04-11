@@ -13,7 +13,7 @@ O software, a ser implementado, deve monitorar a presença e atividades escolare
 ## 1.3 Visão geral
 Este documento descreve os detalhes sobre as características do software Escola X a ser desenvolvido, especificando os problemas que estimularam a criação dessa solução em software. O documento é dividido da seguinte maneira: inicialmente é especificado qual problema motivou o desenvolvimento da solução, em seguida as partes interessadas são descritas, e por fim todos os recursos, restrições e requisitos do produto são apresentados.
 
-# Posição
+# 2. Posição
 ## 2.1 Oportunidade de Negócios
 A forma como se dá o controle e gestão da vida acadêmica dos docentes, principalmente nas escolas públicas, não se adequa às necessidades das coordenações. Isso ocorre devido a um controle rudimentar e, em alguns casos, ineficiente em manter os dados relacionados e informar os responsáveis.
 
