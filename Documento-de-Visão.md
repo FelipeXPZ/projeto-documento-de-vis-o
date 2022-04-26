@@ -79,3 +79,26 @@ O software será usado em todos os navegadores, tendo seu uso otimizado para o G
 |---|---|---|---|---|
 |Gerir a vida acadêmica dos alunos.|Alta|Manter o controle diário de entrada/saída dos alunos e controlar as atividades acadêmicas.|Método manual e ineficiente, utilizando também o aplicativo Acadêmicos Total Pais e Filhos.|Exercer uma gerência mais eficiente da vida acadêmica dos alunos com o auxílio de um software com maior confiabilidade que o sistema anterior.|
 |Notificar os responsáveis.|Alta|Informar os responsáveis sobre entrada/saída e vida acadêmica dos alunos|Os responsáveis recebem um SMS sobre a entrada dos alunos, mas não possuem uma forma digital de acessar o histórico do alunos.|Os responsáveis receberão um SMS informando a entrada e saída do aluno, além de uma plataforma web para acessar o histórico escolar do estudante.|
+
+# 4 Visão geral do produto
+## 4.1 Perspectiva do Produto
+O sistema irá oferecer uma maneira informatizada e eficiente de controlar a entrada e saída dos alunos utilizando um leitor de códigos de barra, existente na instituição. O leitor vai fazer a identificação de cada aluno através da carteirinha, dessa forma os respectivos responsáveis receberão um SMS informando o horário de entrada ou saída do aluno. Cada responsável terá acesso ao histórico escolar do aluno, que fornecerá informações como: número de faltas, boletim escolar e advertências ou suspensões.
+
+## 4.2 Resumo das capacidades
+|Benefício para o Cliente|Recursos de suporte|
+|---|---|
+|Possuir um controle da entrada/saída dos alunos.|A entrada/saída serão verificadas pelo Leitor Físico Solaris MS 7820(MK 7820) após a apresentação da carteirinha pelo aluno.|
+|Manter os responsáveis sempre informados sobre os horários de entrada e saída dos estudantes na escola.|Envio de SMS para o(s) responsável(is) após o aluno utilizar a carteirinha na leitora de código de barras durante a entrada e saída na escola.|
+|Obter informações referentes às atividades acadêmicas dos alunos, como: número de faltas, advertências, suspensões e boletim.|Uma aplicação WEB onde alunos e responsáveis podem se registrar e obter todo um histórico acadêmico dos estudantes.|
+
+# 5. Recursos do produto
+## 5.1 Manter Aluno, Responsável, Professor e Diretor
+O sistema vai manter o cadastro dos alunos, responsáveis, professores e direção.
+## 5.2 Controlar Entrada/Saída dos alunos
+Controlar entrada e saída dos alunos, utilizando-se de cartão identificador e leitor de código de barras, e manter essa informação no sistema.
+## 5.3 Notificar o responsável
+Notifica o responsável cadastrado sobre a entrada e saída dos alunos, advertências e suspensões, reuniões e outras notificações em geral.
+## 5.4 Armazenar notas
+O sistema armazenará a nota de cada aluno nas determinadas disciplinas.
+## 5.5 Consultar aluno
+Os responsáveis terão acesso ao histórico escolar dos alunos, que fornecerá as seguintes informações: número de faltas, boletim escolar, advertências e suspensões.
