@@ -33,3 +33,7 @@ Este artefato documenta assuntos relacionados a visões de casos de uso e de ló
 |UC12 - Notificar os Responsáveis|Mandar SMS para os responsáveis após entrada/saída do aluno.|
 |UC13 - Manter corpo docente|Criar, alterar ou deletar um membro do corpo docente.|
 |UC14 - Fazer login|Acessar funcionalidades do sistema.|
+
+# 3. Visão Lógica
+## 3.1 Classe
+![](https://raw.githubusercontent.com/wiki/fga-gpp-mds/2017.1-Escola-X/images/ClassDiagram.png)
