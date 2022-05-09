@@ -9,3 +9,4 @@
 |US06|Eu como responsável desejo visualizar o(s) boletim(ns) do(s) aluno(s) na qual sou responsável.|0|
 |US07|Eu como secretário desejo poder visualizar os boletins dos alunos para verificar se as informações estão corretas.|0|
 |US08|Eu como secretário desejo registrar nota à alunos para ter controle das notas dos mesmos.|0|
+|US09|Eu como professor desejo visualizar as notas dos alunos dos quais leciono.|0|
