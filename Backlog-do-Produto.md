@@ -10,16 +10,3 @@
 |US07|Eu como secretário desejo poder visualizar os boletins dos alunos para verificar se as informações estão corretas.|0|
 |US08|Eu como secretário desejo registrar nota à alunos para ter controle das notas dos mesmos.|0|
 |US09|Eu como professor desejo visualizar as notas dos alunos dos quais leciono.|0|
-
-# Planejamento da Release
-## Release 01
-> **Data de Início**: XX-XX-2022. **Data de Término**: XX-XX-2022
-### Histórias 
-* US01 - Manter turmas
-* US02 - Manter disciplinas
-* US03 - Consultar alunos
-* US04 - Manter os professores
-* US05 - Visualizar boletim
-### Valor agregado
-* O usuário aluno poderá visualizar seu boletim escolar;
-* O usuário secretário poderá realizar ações básicas(Cadastrar, Consultar, Remover e Atualizar) no módulos de professor, disciplinas, turmas e alunos.
