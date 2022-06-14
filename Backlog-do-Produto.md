@@ -15,5 +15,11 @@
 ## Release 01
 > **Data de Início**: XX-XX-2022. **Data de Término**: XX-XX-2022
 ### Histórias 
-* 
+* US01 - Manter turmas
+* US02 - Manter disciplinas
+* US03 - Consultar alunos
+* US04 - Manter os professores
+* US05 - Visualizar boletim
 ### Valor agregado
+* O usuário aluno poderá visualizar seu boletim escolar;
+* O usuário secretário poderá realizar ações básicas(Cadastrar, Consultar, Remover e Atualizar) no módulos de professor, disciplinas, turmas e alunos.
