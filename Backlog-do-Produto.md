@@ -13,7 +13,7 @@
 
 # Planejamento da Release
 ## Release 01
-Data de Início: XX-XX-2022
-Data de Término: XX-XX-2022
+> **Data de Início**: XX-XX-2022. **Data de Término**: XX-XX-2022
 ### Histórias 
 * 
+### Valor agregado
