@@ -43,38 +43,7 @@ Nosso projeto visa solucionar este problema por meio da informatização do sist
 | **Equipe de Gestão de Projeto** | Estudantes da Universidade de Brasília da disciplina de GPP. | Gerir o desenvolvimento do produto identificando o problema e apontando caminhos e soluções. |
 | **Clientes** | Centro de Ensino Médio 01 do Gama. | Disponibilizar informações sobre os alunos .|
 
-## 3.2 Resumo do usuário
-| Nome | Descrição |
-| --- | --- |
-| **Aluno** | Utilizará o software para validação de entrada e saída. |
-| **Responsáveis** | Serão notificados sobre a frequência dos alunos e comunicados em geral da direção. |
-| **Diretoria** | Poderá comunicar os responsáveis sobre alterações na entrada/saída, advertências, suspensões e boletim dos alunos. |
-
-## 3.3 Ambiente de usuário
-O software será usado em todos os navegadores, tendo seu uso otimizado para o Google chrome versão 56.0.2924.87 devido a sua performance e por ter a maior base instalada dentre os outros navegadores WEB.
-
-## 3.4 Perfis dos usuários
-### 3.4.1 Corpo docente
-| **Representantes**| Macário dos Santos Neto |
-| --- | --- |
-| **Descrição**| Representante do CEM 01 que busca uma forma eficiente de gerir a vida acadêmica dos alunos da instituição e manter os responsáveis informados. |
-| **Tipo**| Diretor do CEM 01. |
-| **Responsabilidades** | Fornecer as informações dos alunos matriculados na instituição. |
-| **Critérios de sucesso** | Diminuir a evasão escolar, gerir e informar os responsáveis sobre a vida acadêmica dos alunos. |
-| **Envolvimento**| Alto |
-|**Comentário/Problemas** | - |
-
-### 3.4.2 Alunos
-| Representantes | alunos |
-| --- | --- |
-| **Descrição**| Estudante matriculado regularmente no CEM 01 do Gama. |
-| **Tipo**| Alunos do CEM 01 do Gama. |
-| **Responsabilidades**| Utilizar a carteirinha da escola para validar sua entrada/saída. |
-| **Critérios de sucesso** | Manter o sistema de frequência funcionando sem maiores dificuldades. |
-| **Envolvimento** | Baixo |
-| **Comentário/Problemas** | Por não ser uma obrigatoriedade, alguns alunos podem não usar o software e diminuir a adesão do sistema. |
-
-## 3.5 Principais necessidades da parte interessada ou do Usuário
+## 3.2 Principais necessidades da parte interessada
 |Necessidade|Prioridade|Interesses|Solução atual|Solução proposta|
 |---|---|---|---|---|
 |Gerir a vida acadêmica dos alunos.|Alta|Manter o controle diário de entrada/saída dos alunos e controlar as atividades acadêmicas.|Método manual e ineficiente, utilizando também o aplicativo Acadêmicos Total Pais e Filhos.|Exercer uma gerência mais eficiente da vida acadêmica dos alunos com o auxílio de um software com maior confiabilidade que o sistema anterior.|
@@ -83,22 +52,3 @@ O software será usado em todos os navegadores, tendo seu uso otimizado para o G
 # 4 Visão geral do produto
 ## 4.1 Perspectiva do Produto
 O sistema irá oferecer uma maneira informatizada e eficiente de controlar a entrada e saída dos alunos utilizando um leitor de códigos de barra, existente na instituição. O leitor vai fazer a identificação de cada aluno através da carteirinha, dessa forma os respectivos responsáveis receberão um SMS informando o horário de entrada ou saída do aluno. Cada responsável terá acesso ao histórico escolar do aluno, que fornecerá informações como: número de faltas, boletim escolar e advertências ou suspensões.
-
-## 4.2 Resumo das capacidades
-|Benefício para o Cliente|Recursos de suporte|
-|---|---|
-|Possuir um controle da entrada/saída dos alunos.|A entrada/saída serão verificadas pelo Leitor Físico Solaris MS 7820(MK 7820) após a apresentação da carteirinha pelo aluno.|
-|Manter os responsáveis sempre informados sobre os horários de entrada e saída dos estudantes na escola.|Envio de SMS para o(s) responsável(is) após o aluno utilizar a carteirinha na leitora de código de barras durante a entrada e saída na escola.|
-|Obter informações referentes às atividades acadêmicas dos alunos, como: número de faltas, advertências, suspensões e boletim.|Uma aplicação WEB onde alunos e responsáveis podem se registrar e obter todo um histórico acadêmico dos estudantes.|
-
-# 5. Recursos do produto
-## 5.1 Manter Aluno, Responsável, Professor e Diretor
-O sistema vai manter o cadastro dos alunos, responsáveis, professores e direção.
-## 5.2 Controlar Entrada/Saída dos alunos
-Controlar entrada e saída dos alunos, utilizando-se de cartão identificador e leitor de código de barras, e manter essa informação no sistema.
-## 5.3 Notificar o responsável
-Notifica o responsável cadastrado sobre a entrada e saída dos alunos, advertências e suspensões, reuniões e outras notificações em geral.
-## 5.4 Armazenar notas
-O sistema armazenará a nota de cada aluno nas determinadas disciplinas.
-## 5.5 Consultar aluno
-Os responsáveis terão acesso ao histórico escolar dos alunos, que fornecerá as seguintes informações: número de faltas, boletim escolar, advertências e suspensões.
