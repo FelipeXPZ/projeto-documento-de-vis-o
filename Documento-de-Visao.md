@@ -1,54 +1,49 @@
 # 1. Introdução
 
 ## 1.1 Propósito
-Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento da solução Escola X.
+Este documento tem como propósito definir e organizar as características relacionadas ao desenvolvimento da solução Hospital Y.
 
-## 1.2 Escopo
-Este projeto tem como finalidade suprir a necessidade de controle e gerenciamento da diretoria referente a vida acadêmica dos alunos da escola Centro de Ensino Médio 01 do Gama.
+## 1.2 Abrangência
+Este projeto visa atender à necessidade de controle e gestão da administração do Hospital Municipal Z em relação aos registros e informações dos pacientes.
 
-A direção busca uma solução em software para substituir um sistema previamente implementado, sendo que, deve possuir como característica fundamental a confiabilidade.
+A administração busca uma solução em software para substituir um sistema existente, com ênfase na confiabilidade e eficiência.
 
-O software, a ser implementado, deve monitorar a presença e atividades escolares dos alunos mantendo os responsáveis informados.
+## 1.3 Visão Geral
+Este documento proporciona uma visão detalhada das características do software Hospital Y, desenvolvido para resolver desafios específicos identificados. Ele aborda os problemas que motivaram o desenvolvimento da solução, apresenta as partes interessadas envolvidas e descreve os recursos, restrições e requisitos do produto.
 
-## 1.3 Visão geral
-Este documento descreve os detalhes sobre as características do software Escola X a ser desenvolvido, especificando os problemas que estimularam a criação dessa solução em software. O documento é dividido da seguinte maneira: inicialmente é especificado qual problema motivou o desenvolvimento da solução, em seguida as partes interessadas são descritas, e por fim todos os recursos, restrições e requisitos do produto são apresentados.
-
-# 2. Posição
+# 2. Posicionamento
 ## 2.1 Oportunidade de Negócios
-A forma como se dá o controle e gestão da vida acadêmica dos docentes, principalmente nas escolas públicas, não se adequa às necessidades das coordenações. Isso ocorre devido a um controle rudimentar e, em alguns casos, ineficiente em manter os dados relacionados e informar os responsáveis.
+A gestão eficaz de registros e informações de pacientes em ambientes hospitalares muitas vezes carece de soluções otimizadas. Nosso projeto visa resolver essa lacuna, proporcionando uma plataforma que atenda às necessidades do Hospital Municipal Z.
 
-Nosso projeto visa solucionar este problema por meio da informatização do sistema de identificação dos alunos e notificação dos pais.
-
-## 2.2 Instrução do problema
-| O problema seria | a dificuldade no controle das informações quanto à vida acadêmica dos alunos|
+## 2.2 Descrição do Problema
+| O problema consiste em | a dificuldade no controle eficiente dos registros e informações dos pacientes |
 |--|--|
-| **que afeta** | a diretoria, professores, alunos e responsáveis |
-| **cujo impacto é** | evasão escolar, falta de controle dos responsáveis e da direção |
-| **e uma boa solução seria** | um controle informatizado da vida acadêmica dos alunos com maior integração dos responsáveis.|
-
-## 2.3 Instrução de posição do produto
-| Para | o corpo docente e responsáveis |
+| **afetando** | a administração e equipe médica do Hospital Municipal Z |
+| **com impacto em** | falhas nos registros, dificuldade na recuperação de informações e possíveis riscos à saúde do paciente |
+| **uma boa solução seria** | um sistema informatizado e confiável para gerenciar registros e informações dos pacientes |
+## 2.3 Declaração de Posicionamento do Produto
+| Para | a administração e equipe médica |
 | --- | --- | 
-| **que** | necessitam de uma ferramenta para o controle da vida acadêmica dos alunos |
-| **o(a)** | Escola X é uma aplicação web |
-| **que** | faz o controle e informatiza a vida acadêmica dos alunos mantendo os responsáveis cientes e aumentando o controle da direção |
-| **diferente do** | método tradicional feito manualmente e do aplicativo Acadêmico Total Pais e Filhos |
-| **nosso produto** | é um alternativa gratuita e funcional para o problema existente. |
+| **que** | necessitam de uma ferramenta eficaz para o controle de registros e informações dos pacientes |
+| **o(a)** | Hospital Y é uma aplicação web |
+| **que** | gerencia e otimiza os registros e informações dos pacientes, melhorando a eficiência operacional |
+| **ao contrário do** | método tradicional de registros físicos e sistemas desatualizados |
+| **nosso produto** | é uma solução moderna, confiável e eficiente para a administração hospitalar. |
 
-# 3 Descrições da parte interessada e do usuário
-## 3.1 Resumo da parte interessada
+# 3 Descrições da Parte Interessada e do Usuário
+## 3.1 Resumo da Parte Interessada
 | Nome| Descrição | Responsabilidade |
 | --- | --- | --- |
-| **Equipe de desenvolvimento** | Estudantes da Universidade de Brasília da disciplina de MDS. | Desenvolver e Implementar o software. |
-| **Equipe de Gestão de Projeto** | Estudantes da Universidade de Brasília da disciplina de GPP. | Gerir o desenvolvimento do produto identificando o problema e apontando caminhos e soluções. |
-| **Clientes** | Centro de Ensino Médio 01 do Gama. | Disponibilizar informações sobre os alunos .|
+| **Equipe de Desenvolvimento** | Estudantes da Universidade de Brasília da disciplina de MDS. | Desenvolver e implementar o software. |
+| **Equipe de Gestão de Projeto** | Estudantes da Universidade de Brasília da disciplina de GPP. | Gerir o desenvolvimento do produto, identificando problemas e propondo soluções. |
+| **Clientes** | Administração do Hospital Municipal Z. | Fornecer informações e requisitos sobre o controle de registros e informações dos pacientes. |
 
-## 3.2 Principais necessidades da parte interessada
-|Necessidade|Prioridade|Interesses|Solução atual|Solução proposta|
+## 3.2 Principais Necessidades da Parte Interessada
+|Necessidade|Prioridade|Interesses|Solução Atual|Solução Proposta|
 |---|---|---|---|---|
-|Gerir a vida acadêmica dos alunos.|Alta|Manter o controle diário de entrada/saída dos alunos e controlar as atividades acadêmicas.|Método manual e ineficiente, utilizando também o aplicativo Acadêmicos Total Pais e Filhos.|Exercer uma gerência mais eficiente da vida acadêmica dos alunos com o auxílio de um software com maior confiabilidade que o sistema anterior.|
-|Notificar os responsáveis.|Alta|Informar os responsáveis sobre entrada/saída e vida acadêmica dos alunos|Os responsáveis recebem um SMS sobre a entrada dos alunos, mas não possuem uma forma digital de acessar o histórico do alunos.|Os responsáveis receberão um SMS informando a entrada e saída do aluno, além de uma plataforma web para acessar o histórico escolar do estudante.|
+|Gerenciar registros e informações dos pacientes.|Alta|Manter controle eficiente dos dados dos pacientes e agilizar o acesso a informações médicas.|Registros físicos e sistemas desatualizados.|Sistema Hospital Y, uma solução moderna e eficaz para o gerenciamento de registros e informações dos pacientes.|
+|Otimizar a comunicação interna entre a equipe médica.|Média|Facilitar o compartilhamento de informações médicas relevantes de forma rápida e segura.|Comunicação verbal e troca de documentos físicos.|Funcionalidades específicas no Hospital Y para comunicação interna, garantindo agilidade e segurança na troca de informações médicas.|
 
-# 4 Visão geral do produto
+# 4 Visão Geral do Produto
 ## 4.1 Perspectiva do Produto
-O sistema irá oferecer uma maneira informatizada e eficiente de controlar a entrada e saída dos alunos utilizando um leitor de códigos de barra, existente na instituição. O leitor vai fazer a identificação de cada aluno através da carteirinha, dessa forma os respectivos responsáveis receberão um SMS informando o horário de entrada ou saída do aluno. Cada responsável terá acesso ao histórico escolar do aluno, que fornecerá informações como: número de faltas, boletim escolar e advertências ou suspensões.
+O sistema Hospital Y oferecerá uma abordagem informatizada e eficiente para o controle de registros e informações dos pacientes. Utilizando uma interface web, integrará os diversos setores do hospital, otimizando a comunicação interna e garantindo um gerenciamento preciso dos dados médicos. A transição de métodos tradicionais para uma solução moderna resultará em maior eficiência operacional e melhor atendimento aos pacientes.
