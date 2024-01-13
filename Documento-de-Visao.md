@@ -1,49 +1,65 @@
-# 1. Introdução
+# Noções fundamentais
+  Conclusão
 
-## 1.1 Propósito
-Este documento tem como propósito definir e organizar as características relacionadas ao desenvolvimento da solução Hospital Y.
+# Objetivos
 
-## 1.2 Abrangência
-Este projeto visa atender à necessidade de controle e gestão da administração do Hospital Municipal Z em relação aos registros e informações dos pacientes.
+Este documento tem como objetivo definir e organizar as características sobre o desenvolvimento da solução do IFPI- campus Angical.
 
-A administração busca uma solução em software para substituir um sistema existente, com ênfase na confiabilidade e eficiência.
+# 1.2 Proposito
+Este projeto tem como finalidade suprir a necessidade de controle e gerenciamento da diretoria referente a vida acadêmica dos alunos do IFPI- campus Angical
 
-## 1.3 Visão Geral
-Este documento proporciona uma visão detalhada das características do software Hospital Y, desenvolvido para resolver desafios específicos identificados. Ele aborda os problemas que motivaram o desenvolvimento da solução, apresenta as partes interessadas envolvidas e descreve os recursos, restrições e requisitos do produto.
+busca uma solução em software para substituir um sistema previamente implementado, sendo que, deve possuir como característica fundamental a confiabilidade.
 
-# 2. Posicionamento
-## 2.1 Oportunidade de Negócios
-A gestão eficaz de registros e informações de pacientes em ambientes hospitalares muitas vezes carece de soluções otimizadas. Nosso projeto visa resolver essa lacuna, proporcionando uma plataforma que atenda às necessidades do Hospital Municipal Z.
+O software, a ser implementado, deve monitorar a presença e atividades escolares dos alunos mantendo os responsáveis informados.
 
-## 2.2 Descrição do Problema
-| O problema consiste em | a dificuldade no controle eficiente dos registros e informações dos pacientes |
-|--|--|
-| **afetando** | a administração e equipe médica do Hospital Municipal Z |
-| **com impacto em** | falhas nos registros, dificuldade na recuperação de informações e possíveis riscos à saúde do paciente |
-| **uma boa solução seria** | um sistema informatizado e confiável para gerenciar registros e informações dos pacientes |
-## 2.3 Declaração de Posicionamento do Produto
-| Para | a administração e equipe médica |
-| --- | --- | 
-| **que** | necessitam de uma ferramenta eficaz para o controle de registros e informações dos pacientes |
-| **o(a)** | Hospital Y é uma aplicação web |
-| **que** | gerencia e otimiza os registros e informações dos pacientes, melhorando a eficiência operacional |
-| **ao contrário do** | método tradicional de registros físicos e sistemas desatualizados |
-| **nosso produto** | é uma solução moderna, confiável e eficiente para a administração hospitalar. |
+# Panoramas gerais
 
-# 3 Descrições da Parte Interessada e do Usuário
-## 3.1 Resumo da Parte Interessada
-| Nome| Descrição | Responsabilidade |
-| --- | --- | --- |
-| **Equipe de Desenvolvimento** | Estudantes da Universidade de Brasília da disciplina de MDS. | Desenvolver e implementar o software. |
-| **Equipe de Gestão de Projeto** | Estudantes da Universidade de Brasília da disciplina de GPP. | Gerir o desenvolvimento do produto, identificando problemas e propondo soluções. |
-| **Clientes** | Administração do Hospital Municipal Z. | Fornecer informações e requisitos sobre o controle de registros e informações dos pacientes. |
+| Visões  |
+| --------------|
+| Bruno devolve as chaves diariamente |
+| Autorização obrigatória para acessar chaves de laboratórios específicos |
+| Necessidade de solicitar permissão para pegar a chave |
+| Restrição de permanência em apenas um laboratório |
+| Designação de monitores individuais para cada professor |
+| Restrição de levar chaves para casa, tanto para professores quanto para alunos |
+| Monitoramento e responsabilidade dos monitores |
+| Implementação de sistemas para facilitar a distribuição de chaves aos alunos, mediante autorização do professor |
 
-## 3.2 Principais Necessidades da Parte Interessada
-|Necessidade|Prioridade|Interesses|Solução Atual|Solução Proposta|
-|---|---|---|---|---|
-|Gerenciar registros e informações dos pacientes.|Alta|Manter controle eficiente dos dados dos pacientes e agilizar o acesso a informações médicas.|Registros físicos e sistemas desatualizados.|Sistema Hospital Y, uma solução moderna e eficaz para o gerenciamento de registros e informações dos pacientes.|
-|Otimizar a comunicação interna entre a equipe médica.|Média|Facilitar o compartilhamento de informações médicas relevantes de forma rápida e segura.|Comunicação verbal e troca de documentos físicos.|Funcionalidades específicas no Hospital Y para comunicação interna, garantindo agilidade e segurança na troca de informações médicas.|
+# 2.Estrutura
+# 2.1 Oportunidade de Negócios
+A oportunidade de negócios reside na necessidade de redefinir a forma como o controle e a gestão da vida acadêmica dos docentes são conduzidos, especialmente nas escolas públicas. A inadequação do sistema atual é evidente devido a um controle rudimentar, muitas vezes ineficiente, que não atende plenamente às demandas das coordenações. A falta de um sistema robusto compromete a precisão e atualização dos dados, resultando em dificuldades para informar adequadamente os responsáveis e prejudicando a eficiência geral do processo acadêmico. Nesse contexto, há uma clara oportunidade de negócio para desenvolver uma solução mais moderna e eficaz que atenda às necessidades específicas das coordenações escolares.
+Nosso projeto visa solucionar este problema por meio da informatização do sistema de identificação dos alunos e notificação dos pais.      
+# 2.2 Principais desafios Identificados
+Desafios 
+Falta de um sistema eficiente para facilitar a entrega de chaves aos alunos com autorização do professor
+Prática recorrente de professores e alunos levando as chaves para casa
+Risco de perda das chaves
+Necessidade de arrebentar a porta em caso de perda da chave, impactando negativamente as atividades acadêmicas
+Possibilidade de perder tanto a chave principal quanto a reserva, aumentando a complexidade do problema
+Dificuldade em rastrear responsabilidades, especialmente quando outros servidores possuem cópias das chaves, o que pode resultar em situações de falta ou danos em salas sem identificação do responsáve
+
+Descrições da Parte Interessada e do Usuário
+# 3.1 Perfil Resumido da Parte Interessada
+Nome	Descrição	Responsabilidade
+Equipe de Desenvolvimento	Estudantes da Universidade de Brasília na disciplina de MDS.	Desenvolver e Implementar o software.
+Equipe de Gestão de Projeto	Estudantes da Universidade de Brasília na disciplina de GPP.	Gerir o desenvolvimento do produto, identificando problemas e propondo soluções.
+
+Clientes	Centro de Ensino Médio 01 do Gama.	Fornecer informações sobre os alunos.
+# 3.2 Principais Necessidades da Parte Interessada
+Necessidades	Prioridade	Interesses	Solução Atual	Solução Proposta
+Gerenciar a vida acadêmica dos alunos.	Alta	Manter controle diário de entrada/saída e atividades acadêmicas dos alunos.	Método manual e ineficiente, usando também o aplicativo Acadêmicos Total Pais e Filhos.	Implementar um software mais confiável para gerenciar eficientemente a vida acadêmica dos alunos.
+Notificar os responsáveis.	Alta	Informar os responsáveis sobre entrada/saída e vida acadêmica dos alunos.	Responsáveis recebem SMS sobre entrada dos alunos, mas não têm acesso digital ao histórico escolar.	Enviar SMS aos responsáveis sobre entrada/saída do aluno e disponibilizar uma plataforma web para acesso ao histórico escolar do estudante.
+Acompanhar o desenvolvimento acadêmico dos alunos.	Média	Ter uma visão abrangente e atualizada do desempenho dos alunos.	Relatórios periódicos e reuniões presenciais.	Desenvolver um sistema que permita o acompanhamento contínuo e detalhado do desempenho acadêmico dos alunos.
+Facilitar a comunicação entre escola e responsáveis.	Alta	Estabelecer uma comunicação eficaz para questões acadêmicas e administrativas.	Comunicação principalmente por telefone e reuniões presenciais.	Implementar uma plataforma de comunicação integrada que permita a troca de informações de maneira eficiente entre a escola e os responsáveis.
 
 # 4 Visão Geral do Produto
-## 4.1 Perspectiva do Produto
-O sistema Hospital Y oferecerá uma abordagem informatizada e eficiente para o controle de registros e informações dos pacientes. Utilizando uma interface web, integrará os diversos setores do hospital, otimizando a comunicação interna e garantindo um gerenciamento preciso dos dados médicos. A transição de métodos tradicionais para uma solução moderna resultará em maior eficiência operacional e melhor atendimento aos pacientes.
+# 4.1 Perspectiva do Produto
+A visão do produto centra-se na introdução de um sistema informatizado e eficiente para monitorar o acesso dos alunos, utilizando o leitor de códigos de barra já existente na instituição de ensino. Este leitor realizará a identificação de cada aluno por meio da carteirinha, permitindo que os responsáveis recebam notificações por SMS sobre os horários de entrada e saída dos alunos.
+
+Além disso, cada responsável terá acesso a um histórico escolar abrangente do aluno. Este histórico incluirá informações cruciais, como o número de faltas, desempenho acadêmico no boletim escolar e registros de advertências ou suspensões. Dessa forma, a proposta vai além do simples controle de acesso, oferecendo uma solução abrangente para que os responsáveis possam acompanhar de perto o desenvolvimento acadêmico e comportamental de seus filhos. Essa abordagem visa fornecer uma experiência mais completa e transparente no envolvimento dos responsáveis na vida escolar dos alunos. 
+
+# Membros
+| Nome | Dever |  E- mail | 
+| :---         |     :---:      |          ---: |
+| Felipe Justo | listar visões gerais (escopo)     | caang.2022119isinf10@aluno.ifpi.edu.br   | 
+| Felipe Ribeiro | Listar problemas/ soluções  | caang.2022119isinf11@aluno.ifpi.edu.br     | 
